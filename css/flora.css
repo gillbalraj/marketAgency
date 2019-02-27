@@ -68,7 +68,25 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend, figure, figcaption {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+/* Footer */
+#footer__bottom {
+    display: inline-block;
+    width: auto;
+    padding: 20px;
+    border-top: 1px solid #e4e4e4;
+  }
+  #footer__bottom__social {
+        float:right;
+        a {
+          display:inline-block;
+          margin-left: 10px;
+          width:35px;
+          height:35px;
+          text-align:center;
+          line-height:37px;
+          font-size:1.5rem; 
+        }
+  }
 /*==================================================================
 1 HTML DOCUMENT AND COMMON ELEMENTS
 /*==================================================================*/
